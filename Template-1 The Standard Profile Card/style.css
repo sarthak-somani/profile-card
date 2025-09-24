@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Basic Reset & Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Card Styles (Hover effect included) --- */
+
+.profile-card {
+    width: 360px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* The hover animation you liked */
+.profile-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 50px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    height: 120px;
+    border-radius: 24px 24px 0 0;
+    position: relative;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 6px solid #ffffff;
+    object-fit: cover;
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-body {
+    padding: 90px 40px 40px; /* Adjusted padding for better balance */
+}
+
+.profile-name {
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.profile-title {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #828282;
+    margin-top: 4px;
+}
+
+.profile-bio {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #555;
+    margin: 24px 0 32px; /* Increased bottom margin to create space */
+    line-height: 1.7;
+}
+
+/* --- Refined Social Icons --- */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #a0a0a0;
+    font-size: 1.5rem; /* Slightly larger for more impact */
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Keeps the pop effect */
+}
+
+/* Custom hover colors for each icon */
+.social-icons a.linkedin:hover {
+    color: #0077b5;
+}
+.social-icons a.instagram:hover {
+    color: #e4405f;
+}
+.social-icons a.x-twitter:hover {
+    color: #000000;
+}
