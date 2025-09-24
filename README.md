@@ -53,7 +53,7 @@ Once your card looks amazing, it's time to go live using IIT Bombay's official h
 2.  Log in using your **LDAP ID** and password.
 3.  Once logged in, create a folder named **`public_html`** by clicking the "+ New" button.
 4.  Click to enter the **`public_html`** folder.
-5.  Now, add your files. Click the "+ New" button followed by **"New document"**. Name it `index.html` and copy-paste your HTML code from the CodePen editor. Do the same to create a `style.css` file as well.
+5.  Now, add your files. Click the "+ New" button followed by **"New document"**. Name it `index.html` and copy-paste your HTML code from the CodePen editor. Click the 'tick' on the top right to save your file! Do the same to create a `style.css` file as well.
 6. If you used a custom image, don't forget to upload that too! (Keep the file names consistent)
 
 ### The Big Reveal!
@@ -62,7 +62,7 @@ This is the moment of truth. The URL for your live homepage is:
 
 **`http://homepages.iitb.ac.in/~LDAPID`**
 
-For example, if your LDAP ID is `24b3006`, your URL would be: `http://homepages.iitb.ac.in/~24b3006`
+For example, if your LDAP ID is `25b9999`, your URL would be: `http://homepages.iitb.ac.in/~25b9999`
 
 Open that URL in a new tab. You should see your creation live. Share it with your friends!
 

@@ -1,0 +1,132 @@
+/*
+ * CSS for Template 2: The Classic Business Card
+ * Try changing the values below to customize your card!
+*/
+
+body {
+    /* Try changing the background color of the whole page! How about a light grey like #f4f4f4? */
+    background-color: #eef2f7; 
+    
+    /* You can find more fonts at fonts.google.com and change the 'Montserrat' name. */
+    font-family: 'Montserrat', sans-serif;
+    
+    /* This centers the card on the page. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* --- The Main Business Card Container --- */
+.business-card {
+    /* Want a wider or narrower card? Change the width! */
+    width: 600px;
+    
+    background-color: #ffffff;
+    
+    /* Experiment with the shadow values. The 4th value (0.08) controls transparency. */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    
+    /* Try 0px for sharp corners, or a larger value like 20px for more rounded corners. */
+    border-radius: 12px;
+    
+    /* Padding is the space INSIDE the card. See what happens when you increase it. */
+    padding: 40px;
+
+    /* This is a trick to make the card contain the floating photo properly. */
+    overflow: auto;
+}
+
+
+/* --- The Profile Photo --- */
+.profile-photo {
+    /* This is the key! It pushes the image to the right. What happens if you change it to 'left'? */
+    float: right;
+
+    /* Adjust the size of your photo. */
+    width: 120px;
+    height: 120px;
+
+    /* 50% makes a perfect circle. Try 10px for a rounded square. */
+    border-radius: 50%;
+
+    /* This adds space to the LEFT of the photo, pushing text away. */
+    margin-left: 30px;
+}
+
+
+/* --- Text Content Styling --- */
+.name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+    /* Pick a new color for your name! Try a hex code like #1a5276 */
+    color: #2c3e50; 
+    
+    /* How big should your name be? */
+    font-size: 32px;
+}
+
+.contact-info p {
+    margin: 0;
+    
+    /* Try a different color for the contact info to make it more subtle. */
+    color: #888;
+    
+    font-size: 14px;
+    line-height: 1.5; /* This is the spacing between the email and phone number. */
+}
+
+.bio {
+    /* Change the color and size of your bio text. */
+    color: #555;
+    font-size: 16px;
+    
+    /* Line height controls the spacing between lines of text. */
+    line-height: 1.6;
+    
+    /* Add some space above the bio. */
+    margin-top: 25px;
+}
+
+
+/* --- Buttons / Footer --- */
+.card-footer {
+    /* Add more space above the buttons if you like. */
+    margin-top: 30px;
+}
+
+.card-button {
+    text-decoration: none;
+    
+    /* Choose a text color that looks good on your button background. */
+    color: #ffffff;
+    
+    /* Change the button color! You can find color ideas at coolors.co */
+    background-color: #3498db;
+    
+    /* Padding controls the button size. The first value is top/bottom, second is left/right. */
+    padding: 12px 22px;
+    
+    /* How rounded do you want the button corners? */
+    border-radius: 5px;
+    
+    /* This adds space to the right of each button. */
+    margin-right: 10px;
+    
+    /* This makes the color change on hover feel smooth. Try changing 0.3s to 1s! */
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    /* Pick a darker or lighter color for when the mouse hovers over the button. */
+    background-color: #2980b9; 
+}
+
+/* Want to try something extra? Try adding transformations to have your card interact on hover. Here's an example:
+.business-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+*/

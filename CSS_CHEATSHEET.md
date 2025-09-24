@@ -19,6 +19,8 @@ font-family: 'Georgia', serif;  /* Font style */
 font-size: 18px;                /* Text size */
 text-align: center;             /* left, right, center */
 ```
+**Tip:** Head over to [Adobe Color Wheel](https://color.adobe.com/create/color-wheel) to explore and create color palettes and get the corresponding HEX codes.
+
 
 ### **The Box Model (Spacing)**
 
